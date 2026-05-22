@@ -1,10 +1,10 @@
 from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, ContextTypes, filters
 
-TOKEN = "توکن_واقعی_تو"
+TOKEN = 8598100011:AAF53-MTFRPoVeph3rCSz-_WgT44DvwXPpg
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
-await update.message.reply_text("سلام 👋 ربات فعاله!")
+await update.message.reply_text (سلام؛ به ایرام‌بگو خوش اومدین)
 
 async def echo(update: Update, context: ContextTypes.DEFAULT_TYPE):
 await update.message.reply_text(update.message.text)
